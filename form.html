@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+
+</head>
+<body>
+    <div id="main">
+        <h1>schedule class</h1>
+        <div id="meet">
+            <form action="" id="schdmeet">
+                <div id="f1">
+            <div id="dv1" class="dvv">
+                <label for="crs" id="crsname" aria-required="true" class="lbl">course name: <sup>*</sup></label>
+                <select name="crslist" id="crs" form="schdmeet" class="sel">
+                    <option value="web development">web development</option>
+                    <option value="dot net">dot net</option>
+                    <option value="java">java</option>
+                    <option value="python">python</option>
+                </select>
+            </div>
+
+            <div id="dv2" class="dvv">
+                 <label for="tpc" id="tpcname" aria-required="true" class="lbl">sub course name/topic: <sup>*</sup></label>
+                <select name="tpclist" id="tpc" form="schdmeet" class="sel">
+                    <option value="mongodb">mongodb</option>
+                    <option value="node js">node js</option>
+                    <option value="multi-threading">multi-threading</option>
+                    <option value="hashmap">hashmap</option>
+                </select>
+            </div>
+
+            <div id="dv3" class="dvv">
+                <label for="trnmd" id="trnmode" aria-required="true" class="lbl">select training mode: <sup>*</sup></label>
+                <select name="modlist" id="trnmd" form="schdmeet" class="sel">
+                    <option value="virtual">virtual</option>
+                    <option value="offline">offline</option>
+                </select>
+            </div>
+                </div>
+
+                <div id="f2">
+            <div class="dvv2">
+                 <label for="ins" id="slcins" aria-required="true" class="lbl">select instructor: <sup>*</sup></label>
+                <select name="inslist" id="ins" form="schdmeet" class="sel">
+                    <option value="mr.sharma sir">mr.sharma sir</option>
+                    <option value="mr.tiwari sir">mr.tiwari sir</option>
+                    <option value="mr.khan sir">mr.khan sir</option>
+                </select>
+            </div>
+
+            <div class="dvv2">
+                <label for="incdes" id="incdesig" class="lbl">instructor designation:</label>
+                <input type="text" id="incdes" form="schdmeet" class="selin" placeholder="instructor designation">
+            </div>
+
+            <div class="dvv2">
+                <label for="sldt" id="seldat" aria-required="true" class="lbl">select date: <sup>*</sup></label>
+                <input type="date" id="sldt" class="sel" >
+            </div>
+                </div>
+
+                    <div id="f3">
+            <div class="dvv3">
+                <label for="slti" id="seltim" class="lbl">select time: </label>
+                <input type="time" id="slti" class="sel" >
+            </div>
+
+            <div class="dvv3">
+                <label for="trnven" id="trnvenue" aria-required="true" class="lbl">enter training venue: <sup>*</sup></label>
+                <input type="text" id="trnven" class="selin" placeholder="training venue">
+            </div>
+
+            <div class="dvv3">
+                <label for="hsli" id="hoslin"  class="lbl">host link:</label>
+                <input type="url" id="hsli" class="selin" placeholder="meeting link">
+            </div>    
+                </div>
+
+                    <div id="f4">
+            <div class="dvv4">
+                <label for="usli" id="uselin"  class="lbl">user link:</label>
+                <input type="url" id="usli" class="selin" placeholder="meeting link">
+            </div>
+
+            <div class="dvv4">
+                <label for="rgus" id="reguse"  class="lbl">select registered designation:</label>
+                <select name="reglist" id="rgus" form="schdmeet" class="sel">
+                    <option value="cho">cho</option>
+                    <option value="cpo">cpo</option>
+                </select>
+                <p id="p1">(only registered user designation and district available)</p>
+            </div>
+
+            <div class="dvv4">
+                <label for="sldi" id="seldis" class="lbl">select district:</label>
+                <div id="li">
+                    <ul id="li1">
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                      <li><input type="checkbox"> bhopal</li>
+                    </ul>
+                    <ul id="li2">
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                        <li><input type="checkbox"> indore</li>
+                    </ul>
+                </div>    
+                <div id="ald">
+                <input type="checkbox" id="chk">
+                <p id="p2">check if you wish to select all districts.</p>
+            </div>
+            <p id="p3">total district selected 1</p>
+
+            </div>
+                    </div>
+                    <button type="submit" id="bbtn">back to dashboard</button>
+                    <button type="submit" id="btn">schedule class</button>
+                
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

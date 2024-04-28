@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "voyage";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overscroll-behavior: none;
+}
+#main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom right,rgb(138, 229, 233) ,white);
+}
+#main h1{
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    color: rgb(4, 4, 7);
+    font-size: 4vw;
+    transform: translate(-50%,-50%);
+    top: 10%;
+    left: 50%;
+    text-transform: capitalize;
+    word-break: nowrap;
+}
+
+#main #schdmeet{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 50%;
+    padding: 2%;
+    padding-top: 8vmin;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 10px 5px 45px grey;
+}
+#main #f1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#main .dvv{
+    height: 10%;
+    width: 25%;
+}
+#main #f2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#main .dvv2{
+    height: 10%;
+    width: 25%;
+    top: 10%;
+}
+#main #f3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#main .dvv3{
+    height: 10%;
+    width: 25%;
+    top: 20%;
+}
+#main #f4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#main .dvv4{
+    height: 10%;
+    width: 25%;
+    top: 30%;
+}
+
+ul{
+    font-size: 1vw;
+    list-style:circle;
+    height: 100px;
+    width: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 0.3vw;
+}
+li{
+    text-transform: capitalize;
+}
+#li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lbl{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    padding: 0.2vw;
+}
+.sel{
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border-color: grey;
+    margin-top: 0.3vw;
+    margin-right: 3vw;
+    margin-bottom: 4vmin;
+    padding-left: 0.8vw;
+    color: grey;
+}
+.selin{
+    color: grey;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border-color: grey;
+    margin-right: 3vw;
+    padding-left: 1.5vw;
+    margin-bottom: 4vmin;
+    margin-top: 0.3vw;
+    letter-spacing: 0.15vw;
+}
+
+#rgus{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.dvv4 #p1{
+    font-size: 0.8vw;
+    color: red;
+    text-transform: capitalize;
+    font-family: "Ubuntu", sans-serif;
+}
+.dvv4 #ald{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    margin-top: 1vw;
+}
+.dvv4 #p2{
+    font-size: 0.8vw;
+    text-transform: capitalize;font-family: "Ubuntu", sans-serif;
+}
+.dvv4 #p3{
+    font-size: 0.8vw;
+    text-transform: capitalize;
+    margin-left: 1.5vw;
+    margin-top: 0.5vw;
+    font-family: "Ubuntu", sans-serif;
+}
+#btn{
+    position: absolute;
+    font-size: 2vw;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 5px 5px 10px 2px grey;
+    bottom: 8vmin;
+}
+#btn:hover{
+    background-color: rgb(185, 240, 243);
+    transition: 2s ease-in-out;
+}
+#bbtn{
+    position: absolute;
+    font-size: 2vw;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    left: 15%;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 5px 5px 10px 2px grey;
+    bottom: 8vmin;
+}
+#bbtn:hover{
+    background-color: rgb(185, 240, 243);
+    transition: 2s ease-in-out;
+}
+sup{
+    color: red;
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

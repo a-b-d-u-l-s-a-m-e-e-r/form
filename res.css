@@ -1,0 +1,187 @@
+@media only screen and (max-width:320px){
+    #main h1{
+        font-size: 22px;
+        top: 5%;
+    }
+    #main #schdmeet{
+        top: 55%;
+        height: 90%;
+        border-radius: 5px;
+    }
+    #main #f1{
+        display: contents;
+    }
+     #main .dvv{
+    height: 7%;
+    width: 100%;
+    }
+    #main #f2{
+        display: contents;
+    }
+     #main .dvv2{
+    height: 7%;
+    width: 100%;
+    }
+    #main #f3{
+        display: contents;
+    }
+     #main .dvv3{
+    height: 7%;
+    width: 100%;
+    }
+    #main #f4{
+        display: contents;
+    }
+     #main .dvv4{
+    height: 7%;
+    width: 100%;
+    }
+    #main .dvv4 #p1{
+        font-size: 7px;
+    }
+    .dvv4 #ald{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        margin-top: 2vw;
+    }
+    .dvv4 #p2{
+        font-size: 7px;
+        text-transform: capitalize;
+    }
+    .dvv4 #p3{
+        font-size: 7px;
+        text-transform: capitalize;
+        margin-left: 1.5vw;
+        margin-top: 0.5vw;
+    }
+    #btn{
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        bottom: 0;
+    }
+    #bbtn{
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        left: 69%;
+        bottom:5%;
+    }
+    ul{
+        font-size: 10px;
+        list-style:circle;
+        height: 50px;
+        width: 50%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin-top: 0.3vw;
+    }
+    
+    .lbl{
+    font-size: 10px;
+    letter-spacing: 0.2vw;
+    }
+    .sel{
+    font-size: 10px;
+    letter-spacing: 0.2vw;
+    }
+    .selin{
+    font-size: 10px;
+    } 
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    #main h1{
+        font-size: 25px;
+        top: 5%;
+        white-space: nowrap;
+    }
+    #main #schdmeet{
+        top: 55%;
+        height: 90%;
+        border-radius: 5px;
+    }
+    #main #f1{
+        display: contents;
+    }
+     #main .dvv{
+    height: 7%;
+    width: 100%;
+    }
+    #main #f2{
+        display: contents;
+    }
+     #main .dvv2{
+    height: 7%;
+    width: 100%;
+    }
+    #main #f3{
+        display: contents;
+    }
+     #main .dvv3{
+    height: 7%;
+    width: 100%;
+    }
+    #main #f4{
+        display: contents;
+    }
+     #main .dvv4{
+    height: 7%;
+    width: 100%;
+    }
+    #main .dvv4 #p1{
+        font-size: 8px;
+    }
+    .dvv4 #ald{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        margin-top: 2vw;
+    }
+    .dvv4 #p2{
+        font-size: 8px;
+        text-transform: capitalize;
+    }
+    .dvv4 #p3{
+        font-size: 8px;
+        text-transform: capitalize;
+        margin-left: 1.5vw;
+        margin-top: 0.5vw;
+    }
+    #btn{
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        bottom: 0;
+    }
+    #bbtn{
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        left: 69%;
+        bottom:5%;
+    }
+    ul{
+        font-size: 10px;
+        list-style:circle;
+        height: 50px;
+        width: 50%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin-top: 0.3vw;
+    }
+    .lbl{
+    font-size: 3vw;
+    margin-left: 2vw;
+    }
+    .sel{
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    }
+    .selin{
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    }
+}
+
